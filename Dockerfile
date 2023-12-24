@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17
-COPY target/bank.jar bank.jar
-CMD [ "java","-jar","bank.jar" ]
+COPY target/office.jar office.jar
+CMD [ "java","-jar","office.jar" ]
