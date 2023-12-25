@@ -16,7 +16,7 @@ import com.oasys.dynamodb.entity.Office;
 import com.oasys.dynamodb.repository.Employeerepo;
 @RestController
 @RequestMapping("office")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
 
 public class Employeecontroller {
 
